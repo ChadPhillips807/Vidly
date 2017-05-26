@@ -224,6 +224,26 @@
     <Compile Include="Migrations\201705252228571_PopulateMembershipTypesWithName.Designer.cs">
       <DependentUpon>201705252228571_PopulateMembershipTypesWithName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705260000288_SetNameInMembershipTypeToRequired.cs" />
+    <Compile Include="Migrations\201705260000288_SetNameInMembershipTypeToRequired.Designer.cs">
+      <DependentUpon>201705260000288_SetNameInMembershipTypeToRequired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705260343482_AddBirthdayToCustomers.cs" />
+    <Compile Include="Migrations\201705260343482_AddBirthdayToCustomers.Designer.cs">
+      <DependentUpon>201705260343482_AddBirthdayToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705260346242_UpdateABirthdayOnCustomerTable.cs" />
+    <Compile Include="Migrations\201705260346242_UpdateABirthdayOnCustomerTable.Designer.cs">
+      <DependentUpon>201705260346242_UpdateABirthdayOnCustomerTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705260414153_MakeBirthdayANullableType.cs" />
+    <Compile Include="Migrations\201705260414153_MakeBirthdayANullableType.Designer.cs">
+      <DependentUpon>201705260414153_MakeBirthdayANullableType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705260417127_UpdateBirthdayInCustomers.cs" />
+    <Compile Include="Migrations\201705260417127_UpdateBirthdayInCustomers.Designer.cs">
+      <DependentUpon>201705260417127_UpdateBirthdayInCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -338,6 +358,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705252228571_PopulateMembershipTypesWithName.resx">
       <DependentUpon>201705252228571_PopulateMembershipTypesWithName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260000288_SetNameInMembershipTypeToRequired.resx">
+      <DependentUpon>201705260000288_SetNameInMembershipTypeToRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260343482_AddBirthdayToCustomers.resx">
+      <DependentUpon>201705260343482_AddBirthdayToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260346242_UpdateABirthdayOnCustomerTable.resx">
+      <DependentUpon>201705260346242_UpdateABirthdayOnCustomerTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260414153_MakeBirthdayANullableType.resx">
+      <DependentUpon>201705260414153_MakeBirthdayANullableType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705260417127_UpdateBirthdayInCustomers.resx">
+      <DependentUpon>201705260417127_UpdateBirthdayInCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
