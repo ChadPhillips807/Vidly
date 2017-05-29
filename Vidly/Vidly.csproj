@@ -244,9 +244,22 @@
     <Compile Include="Migrations\201705260417127_UpdateBirthdayInCustomers.Designer.cs">
       <DependentUpon>201705260417127_UpdateBirthdayInCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705282031503_AddMoviesDB.cs" />
+    <Compile Include="Migrations\201705282031503_AddMoviesDB.Designer.cs">
+      <DependentUpon>201705282031503_AddMoviesDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705292005586_AddGenreClass.cs" />
+    <Compile Include="Migrations\201705292005586_AddGenreClass.Designer.cs">
+      <DependentUpon>201705292005586_AddGenreClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705292007315_AddMovieToGenreConnection.cs" />
+    <Compile Include="Migrations\201705292007315_AddMovieToGenreConnection.Designer.cs">
+      <DependentUpon>201705292007315_AddMovieToGenreConnection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -373,6 +386,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705260417127_UpdateBirthdayInCustomers.resx">
       <DependentUpon>201705260417127_UpdateBirthdayInCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705282031503_AddMoviesDB.resx">
+      <DependentUpon>201705282031503_AddMoviesDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705292005586_AddGenreClass.resx">
+      <DependentUpon>201705292005586_AddGenreClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705292007315_AddMovieToGenreConnection.resx">
+      <DependentUpon>201705292007315_AddMovieToGenreConnection.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

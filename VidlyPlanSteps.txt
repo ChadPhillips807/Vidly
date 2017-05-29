@@ -1,0 +1,5 @@
+-Vidly Steps Exercise 3-
+1. Add Movie DbSet to IdentityModels so we can access the movies DB
+ - Add additional properties to the Movie model
+2. Add Genres Model
+3. Add Genre DbSet to IdentityModels.cs
