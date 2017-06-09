@@ -1,5 +1,4 @@
-﻿@*@model Vidly.Models.Customer*@
-@model Vidly.ViewModels.CustomerFormViewModel
+﻿@model Vidly.ViewModels.CustomerFormViewModel
 @{
     ViewBag.Title = "New";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,7 +22,6 @@
     </div>
     <div class="checkbox">
         <label>
-            @*<input type="checkbox"> Check me out*@
             @Html.CheckBoxFor(m => m.Customer.IsSubscribedToNewsletter) Subscribed to Newsletter?
         </label>
     </div>
